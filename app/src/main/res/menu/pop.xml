@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/sess1"
+        android:title="Sessional 1" />
+
+    <item android:id="@+id/sess2"
+        android:title="Sessional 2" />
+
+    <item android:id="@+id/sess3"
+        android:title="Sessional 3" />
+</menu>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gndec.campusconnect">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar"
+
+        >
+        <activity
+            android:name=".CAMPUS_CONNECT"
+            android:label="@string/title_activity_campus__connect"
+            android:screenOrientation="portrait"
+
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gndec"
+            android:label="@string/title_activity_campus__connect"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".student"
+            android:label="@string/title_activity_student"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".attandence"
+            android:label="@string/title_activity_attandence"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".sessional"
+            android:label="@string/title_activity_sessional"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".theory"
+            android:label="@string/title_activity_theory"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".practical"
+            android:label="@string/title_activity_practical"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".event"
+            android:label="@string/title_activity_event"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".notice"
+            android:label="@string/title_activity_notice"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".info"
+            android:label="@string/title_activity_info"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+    </application>
+</manifest>

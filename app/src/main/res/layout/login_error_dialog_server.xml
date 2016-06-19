@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="vertical" android:background="@drawable/network_error_dilog"
+
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Well this is embarrassing :( This happen either due to server failure or your internet connection is too slow. Try again."
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+
+
+
+        <Button
+            android:id="@+id/button_login_dialog2"
+            android:ems="15"
+            android:background="#ca413b"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:text="Dismiss" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

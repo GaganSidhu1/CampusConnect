@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="vertical" android:background="@drawable/login_error_dialog">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="The username or the password you have entered is not correct. If you forgot your password contact to the concerned department."
+        android:id="@+id/textView76"
+        android:gravity="center"
+        android:layout_marginTop="70dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_login_dialog"
+            android:ems="15"
+            android:background="#ca413b"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal|center"
+            android:text="OK"/>
+
+    </LinearLayout>
+</RelativeLayout>

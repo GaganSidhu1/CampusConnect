@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Campus Connect</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_student">student</string>
+    <string name="title_activity_attandence">attendance</string>
+    <string name="title_activity_sessional">sessional</string>
+    <string name="title_activity_theory">theory</string>
+    <string name="title_activity_practical">practical</string>
+    <string name="title_activity_vertical_scrollview">VerticalScrollview</string>
+    <string name="title_activity_event">event</string>
+    <string name="title_activity_notice">notice</string>
+    <string name="title_activity_info">info</string>
+    <string name="title_activity_campus__connect">Campus Connect</string>
+</resources>
